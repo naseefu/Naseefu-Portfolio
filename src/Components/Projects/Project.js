@@ -18,7 +18,6 @@ import { SiNetlify } from "react-icons/si";
 import { Bot } from 'lucide-react'
 import './project.css'
 import { useNavigate } from 'react-router-dom'
-import Talk from '../Talk/Talk'
 
 const Project = () => {
 
