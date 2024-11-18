@@ -1,8 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "sfpro1";
+  src: url('./fonts/SFPRODISPLAYREGULAR.OTF')format('opentype');
+}
+@font-face {
+  font-family: "sfpro2";
+  src: url('./fonts/SFPRODISPLAYMEDIUM.OTF')format('opentype');
+}
+@font-face {
+  font-family: "roobert";
+  src: url('./fonts/RoobertTRIAL-Light-BF67243fd502239.otf')format('opentype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "roobert",sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
