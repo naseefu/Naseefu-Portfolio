@@ -18,6 +18,7 @@ import { SiNetlify } from "react-icons/si";
 import { Bot } from 'lucide-react'
 import './project.css'
 import { useNavigate } from 'react-router-dom'
+import Talk from '../Talk/Talk'
 
 const Project = () => {
 
@@ -144,7 +145,7 @@ const Project = () => {
           <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj12} alt="Zervings"/>
         </div>
       </div>
-      <div className='p-10'>
+      <div className='p-10 lg:pr-0 lg:pl-0'>
         <h1 ref={(el) => sectionsRef.current[36] = el} className='text-[4.8vw] md:text-[34px] w-[80%] lg:pr-[10vw] lg:pl-[10vw]'>Explore More Projects</h1>
         <p ref={(el) => sectionsRef.current[37] = el} className='mt-4 text-[3vw] md:text-[19px] text-gray-500 md:w-[90%] lg:pr-[10vw] lg:pl-[10vw]'>Want to see more of my work? Check out my GitHub for a deeper dive into the projects I've built, 
           ranging from innovative web apps to complex full-stack solutions.</p>
@@ -153,22 +154,22 @@ const Project = () => {
       </div>
       <div className='sectionpro flex gap-[114.5%]' style={{width:'fit-content'}}>
       <div ref={(el) => sectionsRef.current[39] = el} className='projimages primary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
       </div>
       <div ref={(el) => sectionsRef.current[40] = el} className='projimages secondary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
       </div>
       
       </div>
