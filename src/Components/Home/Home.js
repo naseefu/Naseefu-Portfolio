@@ -12,7 +12,7 @@ import { Bot, BotMessageSquare } from 'lucide-react';
 import TechStack from './TechStack';
 import Project from '../Projects/Project';
 import dp from '../Project4/dp.JPG'
-import Talk from '../Talk/Talk';
+import Talk from './Talk';
 
 const Home = () => {
 
