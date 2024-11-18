@@ -57,8 +57,8 @@
 }
 
 .sectionpro .projimages img{
-  min-width: 30%;
-  max-width: 30%;
+  min-width: 35%;
+  max-width: 35%;
 }
 .sectionpro .primary{
   animation: primary 30s linear infinite;
