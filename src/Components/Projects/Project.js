@@ -153,22 +153,22 @@ const Project = () => {
       </div>
       <div className='sectionpro flex gap-[114.5%]' style={{width:'fit-content'}}>
       <div ref={(el) => sectionsRef.current[39] = el} className='projimages primary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
       </div>
       <div ref={(el) => sectionsRef.current[40] = el} className='projimages secondary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
-        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj4} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj5} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
+        <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[30%] max-w-[30%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
       </div>
       
       </div>
