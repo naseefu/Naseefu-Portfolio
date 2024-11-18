@@ -10,10 +10,10 @@ const Header = () => {
         <p>Naseefu</p>
       </div>
       <div className='flex gap-5'>
-        <p className='cursor-pointer'><FaLinkedin/></p>
-        <p className='cursor-pointer'><FaGithub/></p>
-        <p className='cursor-pointer'><MdAlternateEmail /></p>
-        <p className='cursor-pointer'><FaInstagram /></p>
+        <a href='https://www.linkedin.com/in/naseefu-rahman-karumannil/' target='/'><p className='cursor-pointer'><FaLinkedin/></p></a>
+        <a href='https://github.com/naseefu' target='/'><p className='cursor-pointer'><FaGithub/></p></a>
+        <a href='mailto:naseefrahman90@gmail.com' target='/'><p className='cursor-pointer'><MdAlternateEmail /></p></a>
+        <a href='https://www.instagram.com/_naseef____?igsh=ZTVpaGVwbjVxenow&utm_source=qr' target='/'><p className='cursor-pointer'><FaInstagram /></p></a>
       </div>
     </div>
   )
