@@ -1,7 +1,7 @@
 .resume h1,.resume p{
   opacity: 0;
   transform: translateY(50px);
-  transition: all 1s ease,background 0.3 ease;
+  transition: all 1s ease;
 }
 .resume .show-section{
   opacity: 1;
