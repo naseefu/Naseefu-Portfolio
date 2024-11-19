@@ -64,10 +64,10 @@ const Home = () => {
         </div>
         <div className='p-10 pt-5 min-h-[200px] lg:pr-[10vw] lg:pl-[10vw]' style={{display:'flex',alignItems:'center',justifyContent:'end',fontWeight:'lighter'}}>
           {/* <img src={dp} alt='dp' className='h-[130px] ' style={{borderRadius:"250px"}}/> */}
-          <p><HiOutlineArrowLongDown className='text-grey' style={{fontSize:"60px",fontWeight:"lighter",color:"rgba(255,255,255,0.4)"}}/></p>
+          <a href="#person"><p><HiOutlineArrowLongDown className='text-grey' style={{fontSize:"60px",fontWeight:"lighter",color:"rgba(255,255,255,0.4)"}}/></p></a>
         </div>
       </div>
-      <div className='tech p-10 pr-5 text-[4.6vw] md:text-[30px] md:w-[70%] leading-[1.4] flex flex-col gap-10 lg:pr-[10vw] lg:pl-[10vw]'>
+      <div id="person" className='tech p-10 pr-5 text-[4.6vw] md:text-[30px] md:w-[70%] leading-[1.4] flex flex-col gap-10 lg:pr-[10vw] lg:pl-[10vw]'>
         <p ref={(el) => sectionsRef.current[0] = el}>I'm passionate about creating impactful software solutions, skilled in Java, Spring Boot, React, PostgreSQL, and AI. I aim to leverage cutting-edge 
           technologies to solve real-world challenges and build efficient, scalable, and user-focused applications.</p>
         <p ref={(el) => sectionsRef.current[1] = el}>With a strong full-stack development background, I've designed and implemented various projects, from web apps to AI platforms, 
