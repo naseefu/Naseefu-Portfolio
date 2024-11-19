@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/Naseefu-Rahman-Karumannil-Resume.pdf", "destination": "/public/Naseefu-Rahman-Karumannil-Resume.pdf" }
+  ]
+}
