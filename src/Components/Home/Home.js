@@ -13,6 +13,7 @@ import TechStack from './TechStack';
 import Project from '../Projects/Project';
 import dp from '../Project4/dp.JPG'
 import Talk from './Talk';
+import Resume from './Resume';
 
 const Home = () => {
 
@@ -90,6 +91,9 @@ const Home = () => {
       </div>
       <div>
         <Project/>
+      </div>
+      <div>
+        <Resume/>
       </div>
       <div>
         <Talk/>
