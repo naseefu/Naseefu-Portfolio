@@ -1,0 +1,9 @@
+.resume h1,.resume p{
+  opacity: 1;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+.resume .show-section{
+  opacity: 1;
+  transform: translateY(0);
+}
