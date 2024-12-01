@@ -82,9 +82,9 @@ const Home = () => {
       </div>
       <div  className='experience p-10 pt-5 text-[4vw] md:text-[26px] lg:pr-[10vw] lg:pl-[10vw]'>
         <p ref={(el) => sectionsRef.current[6] = el} className='text-gray-500 text-[3.5vw] md:text-[23px]'>Experiece</p>
-        <p ref={(el) => sectionsRef.current[7] = el} className='mt-4'>Jr. Full Stack Developer Intern</p>
+        <p ref={(el) => sectionsRef.current[7] = el} className='mt-4'>Jr. Full Stack Developer</p>
         <p ref={(el) => sectionsRef.current[8] = el}>Inmakes Infotech</p>
-        <p ref={(el) => sectionsRef.current[9] = el}>Nov 2023 - Feb 2024</p>
+        <p ref={(el) => sectionsRef.current[9] = el}>Oct 2023 - Sep 2024</p>
       </div>
       <div>
         <TechStack/>
