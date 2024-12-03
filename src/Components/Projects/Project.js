@@ -90,10 +90,10 @@ const Project = () => {
           <p ref={(el) => sectionsRef.current[8] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiNetlify/></span>Netlify</p>
           <p ref={(el) => sectionsRef.current[9] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
         </div>
-        <div ref={(el) => sectionsRef.current[10] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5'>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj1} alt="Zervings"/>
-          <img className='max-h-[250px] md:max-h-[350px] xl:max-h-[500px]' src={proj3} alt="Zervings"/>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj2} alt="Zervings"/>
+        <div ref={(el) => sectionsRef.current[10] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5 pt-5'>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj1} alt="Zervings"/>
+          <img className='max-h-[250px] md:max-h-[350px] xl:max-h-[500px]' style={{zIndex:"999"}} src={proj3} alt="Zervings"/>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj2} alt="Zervings"/>
         </div>
       </div>
 
@@ -108,10 +108,10 @@ const Project = () => {
           <p ref={(el) => sectionsRef.current[17] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiVercel/></span>Vercel</p>
           <p ref={(el) => sectionsRef.current[18] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
         </div>
-        <div ref={(el) => sectionsRef.current[19] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5'>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj5} alt="Zervings"/>
-          <img className='max-h-[250px] md:max-h-[350px] xl:max-h-[500px]' src={proj4} alt="Zervings"/>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj6} alt="Zervings"/>
+        <div ref={(el) => sectionsRef.current[19] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5 pt-5'>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj5} alt="Zervings"/>
+          <img className='max-h-[250px] md:max-h-[350px] xl:max-h-[500px]' style={{zIndex:"999"}} src={proj4} alt="Zervings"/>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj6} alt="Zervings"/>
         </div>
       </div>
 
@@ -125,10 +125,10 @@ const Project = () => {
           <p ref={(el) => sectionsRef.current[25] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiNetlify/></span>Netlify</p>
           <p ref={(el) => sectionsRef.current[26] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
         </div>
-        <div ref={(el) => sectionsRef.current[27] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5'>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj7} alt="Zervings"/>
-          <img className='max-h-[250px] md:max-h-[350px] xl:max-h-[500px]' src={proj8} alt="Zervings"/>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj9} alt="Zervings"/>
+        <div ref={(el) => sectionsRef.current[27] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5 pt-5'>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj7} alt="Zervings"/>
+          <img className='max-h-[250px] md:max-h-[350px] xl:max-h-[500px]' style={{zIndex:"999"}} src={proj8} alt="Zervings"/>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj9} alt="Zervings"/>
         </div>
       </div>
 
