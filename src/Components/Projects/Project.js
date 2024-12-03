@@ -139,27 +139,27 @@ const Project = () => {
           <p ref={(el) => sectionsRef.current[30] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><GrReactjs/></span>React</p>
           <p ref={(el) => sectionsRef.current[31] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><BiLogoSpringBoot/></span>Spring Boot</p>
           <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><GrMysql/></span>MySQL</p>
-          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiMongodb/></span>MongoDB</p>
-          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiCloudinary/></span>Cloudinary</p>
-          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><Bot/></span>Cohere AI</p>
-          <p ref={(el) => sectionsRef.current[33] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiNetlify/></span>Netlify</p>
-          <p ref={(el) => sectionsRef.current[34] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
+          <p ref={(el) => sectionsRef.current[33] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiMongodb/></span>MongoDB</p>
+          <p ref={(el) => sectionsRef.current[34] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiCloudinary/></span>Cloudinary</p>
+          <p ref={(el) => sectionsRef.current[35] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><Bot/></span>Cohere AI</p>
+          <p ref={(el) => sectionsRef.current[36] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiNetlify/></span>Netlify</p>
+          <p ref={(el) => sectionsRef.current[37] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
         </div>
-        <div ref={(el) => sectionsRef.current[35] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5 pt-5'>
+        <div ref={(el) => sectionsRef.current[38] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5 pt-5'>
           <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj13} alt="Zervings"/>
           <img className='max-h-[230px] md:max-h-[350px] xl:max-h-[500px]' style={{zIndex:"999"}} src={proj15} alt="Zervings"/>
           <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)",zIndex:"99"}} src={proj14} alt="Zervings"/>
         </div>
       </div>
       <div className='p-10 lg:pr-0 lg:pl-0'>
-        <h1 ref={(el) => sectionsRef.current[36] = el} className='text-[4.8vw] md:text-[34px] w-[80%] lg:pr-[10vw] lg:pl-[10vw]'>Explore More Projects</h1>
-        <p ref={(el) => sectionsRef.current[37] = el} className='mt-4 text-[3vw] md:text-[19px] text-gray-500 md:w-[90%] lg:pr-[10vw] lg:pl-[10vw]'>Want to see more of my work? Check out my GitHub for a deeper dive into the projects I've built, 
+        <h1 ref={(el) => sectionsRef.current[39] = el} className='text-[4.8vw] md:text-[34px] w-[80%] lg:pr-[10vw] lg:pl-[10vw]'>Explore More Projects</h1>
+        <p ref={(el) => sectionsRef.current[40] = el} className='mt-4 text-[3vw] md:text-[19px] text-gray-500 md:w-[90%] lg:pr-[10vw] lg:pl-[10vw]'>Want to see more of my work? Check out my GitHub for a deeper dive into the projects I've built, 
           ranging from innovative web apps to complex full-stack solutions.</p>
-        <a href='https://github.com/naseefu' target='/'><p ref={(el) => sectionsRef.current[38] = el} className='gitbtn mt-6 flex items-center gap-2 border border-[2px] border-[rgb(40,40,40)] 
+        <a href='https://github.com/naseefu' target='/'><p ref={(el) => sectionsRef.current[41] = el} className='gitbtn mt-6 flex items-center gap-2 border border-[2px] border-[rgb(40,40,40)] 
         rounded-xl p-2 pr-4 pl-4 md:w-[50%] lg:mr-[10vw] lg:ml-[10vw] cursor-pointer hover:bg-[rgb(40,40,40)]'><span><GrGithub/></span>Visit My GitHub</p></a>
       </div>
       <div className='sectionpro flex gap-[114.5%]' style={{width:'fit-content'}}>
-      <div ref={(el) => sectionsRef.current[39] = el} className='projimages primary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
+      <div ref={(el) => sectionsRef.current[42] = el} className='projimages primary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
@@ -168,7 +168,7 @@ const Project = () => {
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj6} alt='proj'/>
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj7} alt='proj'/>
       </div>
-      <div ref={(el) => sectionsRef.current[40] = el} className='projimages secondary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
+      <div ref={(el) => sectionsRef.current[43] = el} className='projimages secondary flex gap-3 mt-10 pb-10 items-center' style={{minWidth:"fit-content"}}>
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj1} alt='proj'/>
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj2} alt='proj'/>
         <img className='h-[100px] md:h-[200px] lg:h-[250px] xl:h-[250px] min-w-[35%] max-w-[35%] rounded-sm' style={{objectFit:'cover',filter:"brightness(40%)"}} src={proj3} alt='proj'/>
