@@ -142,7 +142,7 @@ const Project = () => {
           <p ref={(el) => sectionsRef.current[33] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiNetlify/></span>Netlify</p>
           <p ref={(el) => sectionsRef.current[34] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
         </div>
-        <div ref={(el) => sectionsRef.current[35] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5'>
+        <div ref={(el) => sectionsRef.current[35] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5 pt-5'>
           <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj13} alt="Zervings"/>
           <img className='max-h-[230px] md:max-h-[350px] xl:max-h-[500px]' src={proj15} alt="Zervings"/>
           <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj14} alt="Zervings"/>
