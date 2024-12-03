@@ -11,6 +11,10 @@ import proj9 from '../Project3/pro3.png'
 import proj10 from '../Project4/1.png'
 import proj11 from '../Project4/10.png'
 import proj12 from '../Project4/12.png'
+import proj13 from '../Project4/f1.png'
+import proj14 from '../Project4/f3.png'
+import proj15 from '../Project4/f5.png'
+
 import { GrGithub, GrMysql, GrReactjs } from 'react-icons/gr'
 import { SiPostgresql, SiRailway, SiSpringboot, SiVercel } from 'react-icons/si'
 import { BiLogoPostgresql, BiLogoSpringBoot } from 'react-icons/bi'
@@ -139,9 +143,9 @@ const Project = () => {
           <p ref={(el) => sectionsRef.current[34] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
         </div>
         <div ref={(el) => sectionsRef.current[35] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5'>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj11} alt="Zervings"/>
-          <img className='max-h-[230px] md:max-h-[350px] xl:max-h-[500px]' src={proj10} alt="Zervings"/>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj12} alt="Zervings"/>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj13} alt="Zervings"/>
+          <img className='max-h-[230px] md:max-h-[350px] xl:max-h-[500px]' src={proj14} alt="Zervings"/>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj15} alt="Zervings"/>
         </div>
       </div>
       <div className='p-10 lg:pr-0 lg:pl-0'>
