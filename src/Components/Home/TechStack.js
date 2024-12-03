@@ -3,7 +3,7 @@ import { BiLogoSpringBoot } from "react-icons/bi";
 import './hom.css'
 import { HiArrowLongDown, HiOutlineArrowLongDown } from "react-icons/hi2";
 import { FaGitSquare, FaJava, FaNodeJs, FaPython, FaReact } from 'react-icons/fa';
-import { SiApachemaven, SiPostgresql, SiCloudinary, SiSocketdotio } from "react-icons/si";
+import { SiApachemaven, SiPostgresql, SiCloudinary, SiSocketdotio, SiMongodb } from "react-icons/si";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { GrMysql } from "react-icons/gr";
 import { Bot, BotMessageSquare } from 'lucide-react';
@@ -67,6 +67,7 @@ const TechStack = () => {
         <p ref={(el) => sectionsRef.current[12] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiApachemaven /></span>Maven</p>
         <p ref={(el) => sectionsRef.current[13] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiCloudinary /></span>Cloudinary</p>
         <p ref={(el) => sectionsRef.current[14] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiSocketdotio /></span>WebSocket</p>
+        <p ref={(el) => sectionsRef.current[15] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiMongodb /></span>MongoDB</p>
         </div>
       </div>
   )
