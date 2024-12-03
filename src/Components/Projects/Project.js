@@ -16,7 +16,7 @@ import proj14 from '../Project4/f3.png'
 import proj15 from '../Project4/f5.png'
 
 import { GrGithub, GrMysql, GrReactjs } from 'react-icons/gr'
-import { SiPostgresql, SiRailway, SiSpringboot, SiVercel } from 'react-icons/si'
+import { SiPostgresql, SiRailway, SiSpringboot, SiVercel, SiMongodb, SiCloudinary } from 'react-icons/si'
 import { BiLogoPostgresql, BiLogoSpringBoot } from 'react-icons/bi'
 import { SiNetlify } from "react-icons/si";
 import { Bot } from 'lucide-react'
@@ -133,12 +133,15 @@ const Project = () => {
       </div>
 
       <div className='project1 mt-10 '>
-        <h1 ref={(el) => sectionsRef.current[28] = el} className='text-[4.8vw] md:text-[34px] w-[80%] pl-10 pr-10 lg:pr-[10vw] lg:pl-[10vw]'>Eventura — Event Manager</h1>
-        <p ref={(el) => sectionsRef.current[29] = el} className='mt-4 text-[3vw] md:text-[19px] text-gray-500 pl-10 pr-10 md:w-[90%] lg:pr-[10vw] lg:pl-[10vw]'>Seamlessly plan, organize, and manage events with an intuitive and efficient platform.</p>
+        <h1 ref={(el) => sectionsRef.current[28] = el} className='text-[4.8vw] md:text-[34px] w-[80%] pl-10 pr-10 lg:pr-[10vw] lg:pl-[10vw]'> FitSync- AI-Powered Fitness Tracker</h1>
+        <p ref={(el) => sectionsRef.current[29] = el} className='mt-4 text-[3vw] md:text-[19px] text-gray-500 pl-10 pr-10 md:w-[90%] lg:pr-[10vw] lg:pl-[10vw]'> Afitness tracker website to log workouts, monitor progress, and get AI-powered personalized tips.</p>
         <div className='mt-5 flex gap-3 pl-10 pr-10 lg:pr-[10vw] lg:pl-[10vw]' style={{flexWrap:"wrap"}}>
           <p ref={(el) => sectionsRef.current[30] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><GrReactjs/></span>React</p>
           <p ref={(el) => sectionsRef.current[31] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><BiLogoSpringBoot/></span>Spring Boot</p>
-          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><BiLogoPostgresql/></span>PostgreSQL</p>
+          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><GrMysql/></span>MySQL</p>
+          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiMongodb/></span>MongoDB</p>
+          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiCloudinary/></span>Cloudinary</p>
+          <p ref={(el) => sectionsRef.current[32] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><Bot/></span>Cohere AI</p>
           <p ref={(el) => sectionsRef.current[33] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiNetlify/></span>Netlify</p>
           <p ref={(el) => sectionsRef.current[34] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[rgb(60,60,60)] rounded-xl p-2 pr-4 pl-4 '><span><SiRailway /></span>Railway</p>
         </div>
