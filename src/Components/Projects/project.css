@@ -1,7 +1,7 @@
 .projects .project1 img{
 
   border-radius: 10px;
-  transition: transform 0.3s ease;
+  transition: transform 0.6s ease;
   transform-origin: center;
   cursor: pointer;
   z-index: 99999;
