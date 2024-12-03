@@ -144,8 +144,8 @@ const Project = () => {
         </div>
         <div ref={(el) => sectionsRef.current[35] = el} className='images1 mt-[60px] pb-10 flex items-center justify-center gap-5'>
           <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj13} alt="Zervings"/>
-          <img className='max-h-[230px] md:max-h-[350px] xl:max-h-[500px]' src={proj14} alt="Zervings"/>
-          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj15} alt="Zervings"/>
+          <img className='max-h-[230px] md:max-h-[350px] xl:max-h-[500px]' src={proj15} alt="Zervings"/>
+          <img className='max-h-[180px] md:max-h-[300px] xl:max-h-[400px]' style={{filter:"brightness(50%)"}} src={proj14} alt="Zervings"/>
         </div>
       </div>
       <div className='p-10 lg:pr-0 lg:pl-0'>
