@@ -65,8 +65,8 @@ const TechStack = () => {
         <p ref={(el) => sectionsRef.current[10] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><Bot /></span>ChatGPT</p>
         <p ref={(el) => sectionsRef.current[11] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><FaGitSquare /></span>Git</p>
         <p ref={(el) => sectionsRef.current[12] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiApachemaven /></span>Maven</p>
-        <p ref={(el) => sectionsRef.current[12] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiCloudinary /></span>Cloudinary</p>
-        <p ref={(el) => sectionsRef.current[12] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiSocketdotio /></span>WebSocket</p>
+        <p ref={(el) => sectionsRef.current[13] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiCloudinary /></span>Cloudinary</p>
+        <p ref={(el) => sectionsRef.current[14] = el} className='mt-4 flex items-center gap-2 border border-[2px] border-[grey] rounded-xl p-2 pr-4 pl-4 '><span><SiSocketdotio /></span>WebSocket</p>
         </div>
       </div>
   )
